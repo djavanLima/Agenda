@@ -16,7 +16,7 @@ public class AgendaApplication {
 	
 	
 	//permite que um codigo seja executado logo quando a aplicação é inicializada
-	
+	/*
 	@Bean
 	public CommandLineRunner commandLineRunner(
 			@Autowired ContatoRepository repository) {
@@ -32,7 +32,7 @@ public class AgendaApplication {
 		};
 		
 	}
-	
+	*/
 	
 	public static void main(String[] args) {
 		SpringApplication.run(AgendaApplication.class, args);
